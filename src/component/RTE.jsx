@@ -38,6 +38,10 @@ const RTE = ({ name, control, label, defaultValue = "" }) => {
             init={{
               height: 500,
               menubar: true,
+              
+              // updated Line
+              base_url: "https://cdn.jsdelivr.net/npm/tinymce@6.8.3",
+              suffix: ".min",
 
               // Required for TinyMCE 7/8 local use
               license_key: "gpl",
